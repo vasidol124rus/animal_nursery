@@ -2,8 +2,8 @@ package animals_models.PackAnimals;
 
 import java.time.LocalDate;
 
-class Donkey extends PackAnimals {
-    public Donkey(String name, String breed, LocalDate birthdate) {
+public class Donkey extends PackAnimals {
+    public Donkey(String name, LocalDate birthdate) {
         super(name, "Donkey", birthdate);
     }
 

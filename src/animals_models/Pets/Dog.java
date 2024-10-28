@@ -2,16 +2,15 @@ package animals_models.Pets;
 
 import java.time.LocalDate;
 
-class Dog extends Pets {
-    public Dog(String name, String breed, LocalDate birthdate) {
-        super(name, breed, birthdate);
+public class Dog extends Pets {
+    public Dog(String name, LocalDate birthdate) {
+        super(name, birthdate);
     }
 
     @Override
     public String toString() {
-        return "Dog{" +
-                "breed='" + getBreed() + '\'' +
-                ", name='" + getName() + '\'' +
+        return "Dog{"+
+                " name='" + getName() + '\'' +
                 ", type='" + getType() + '\'' +
                 ", birthdate=" + getBirthdate() +
                 ", commands=" + getCommands() +

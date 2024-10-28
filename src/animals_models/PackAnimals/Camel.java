@@ -2,7 +2,7 @@ package animals_models.PackAnimals;
 
 import java.time.LocalDate;
 
-class Camel extends PackAnimals {
+public class Camel extends PackAnimals {
     public Camel(String name, LocalDate birthdate) {
         super(name, "Camel", birthdate);
     }

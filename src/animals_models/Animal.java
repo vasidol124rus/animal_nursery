@@ -32,6 +32,10 @@ public abstract class Animal {
         return commands;
     }
 
+    public void learnCommand(String command) {
+        commands.add(command);
+    }
+
     @Override
     public String toString() {
         return "Animal{" +
@@ -41,8 +45,4 @@ public abstract class Animal {
                 ", commands=" + commands +
                 '}';
     }
-    public void learnCommand(String command) {
-        commands.add(command);
-    }
 }
-
