@@ -4,7 +4,7 @@ import java.time.LocalDate;
 import java.util.ArrayList;
 import java.util.List;
 
-abstract class Animal {
+public abstract class Animal {
     private String name;
     private String type;
     private LocalDate birthdate;
